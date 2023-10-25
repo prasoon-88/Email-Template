@@ -13,7 +13,7 @@ const Card = ({ card }) => {
                 <img src={card.img} alt="" />
             </div>
             <div>
-                <h1>{card.name}</h1>
+                <h1 className='cardHeading'>{card.name}</h1>
             </div>
         </div>
     )

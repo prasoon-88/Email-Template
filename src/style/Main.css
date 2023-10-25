@@ -50,6 +50,7 @@ main {
 
 .container {
     width: 100%;
+    height: 100%;
     display: flex;
     gap: 40px;
     flex-direction: column;
@@ -193,9 +194,7 @@ input::placeholder {
 
 .cards-main {
     display: grid;
-    align-items: center;
     gap: 24px;
-    align-self: stretch;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -273,7 +272,7 @@ input::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-    background:  linear-gradient(transparent,#ffffff57);
+    background: linear-gradient(transparent, #ffffff57);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -282,7 +281,7 @@ input::placeholder {
 }
 
 
-.imageContainer:hover> .btnContainer{
+.imageContainer:hover>.btnContainer {
     transform: translateY(0px);
 }
 
@@ -301,6 +300,67 @@ input::placeholder {
     height: 20px;
 }
 
-button{
+button {
     cursor: pointer;
+}
+
+
+@media screen and (max-width:600px) {
+    main {
+        width: 100vw;
+        margin: auto;
+        display: flex;
+        padding: 40px 0 80px 0;
+        flex-direction: column;
+    }
+
+    .category-main {
+        display: flex;
+        margin:10px 24px;
+    }
+
+    .category-main>h3 {
+        font-size: 24px;
+    }
+
+    .container-header {
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .sorting {
+        gap: 10px;
+        width: 342px;
+    }
+
+    .sorting>select {
+       background: rgb(255, 255, 255);
+    }
+
+    .catelog{
+        height: 100%;
+    }
+
+    .catelog>h1 {
+        padding-left: 20px;
+    }
+
+    .cards-main {
+        grid-template-columns: none;
+        place-content: center;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self:normal;
+        justify-content: center;
+    }
+    .cardHeading{
+        width: 221px
+    }
+
 }
