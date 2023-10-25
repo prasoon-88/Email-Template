@@ -9,6 +9,10 @@
 
 - 
 
+https://github.com/prasoon-88/Email-Template/assets/120123229/e0394ace-78a8-40c9-b143-7a09b812257b
+
+
+
 - 🤝 To run app on VSCode use - **npm run dev**
 
 
