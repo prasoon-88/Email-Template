@@ -5,14 +5,11 @@
 
 - 🔭This is a React project Named - **Email Template**
 
-![](https://github.com/prasoon-88/vido/blob/master/email-template%20gif.mp4)
-
 - 👯 Live Link (Vercel) - **https://email-template-prasoonasati.vercel.app/**
 
+- 
+
 - 🤝 To run app on VSCode use - **npm run dev**
-
-
-https://github.com/prasoon-88/Email-Template/assets/120123229/6fd531dc-bc8b-4f9b-848b-561c9ac170e9
 
 
 - 👨‍💻 Portfolio - [https://prasoonasati88.netlify.app/](https://prasoonasati88.netlify.app/)
