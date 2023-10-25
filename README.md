@@ -6,6 +6,10 @@
 - 🔭This is a React project Named - **Email Template**
 
 
+
+https://github.com/prasoon-88/Email-Template/assets/120123229/b52a5201-e334-4017-adcd-6233cf329f5a
+
+
 ![](https://github.com/prasoon-88/vido/blob/master/email-template%20gif.mp4)
 - 👯 Live Link (Vercel) - **https://email-template-prasoonasati.vercel.app/**
 
