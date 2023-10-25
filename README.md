@@ -5,6 +5,8 @@
 
 - 🔭This is a React project Named - **Email Template**
 
+
+![](https://github.com/prasoon-88/vido/blob/master/email-template%20gif.mp4)
 - 👯 Live Link (Vercel) - **https://email-template-prasoonasati.vercel.app/**
 
 - 🤝 To run app on VSCode use - **npm run dev**
